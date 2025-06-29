@@ -1,0 +1,22 @@
+[project]
+name = "capbioco2-optimization"
+version = "0.1.0"
+description = "In this project, various methods for optimizing test procedures are being implemented in the CapBioCO2 project."
+authors = [
+    {name = "david-grandel@t-online.de"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "pandas (>=2.3.0,<3.0.0)",
+    "jupyterlab (>=4.4.4,<5.0.0)",
+    "bayesian-optimization (>=3.0.0,<4.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
