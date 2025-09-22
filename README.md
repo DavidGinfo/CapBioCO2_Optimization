@@ -44,7 +44,6 @@ To ensure that the notebooks function properly, the following steps are recommen
 ## Project Structure
 
 ```
-.
 ├── cached_objects
 │   ├── model_gbrt
 │   ├── model_lin_reg
