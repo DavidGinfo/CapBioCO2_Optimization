@@ -18,8 +18,8 @@ Installation of the following programs:
 - [Visual Studio Code](https://code.visualstudio.com/Download)
     - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
     - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-- [Python](https://www.python.org/downloads/) (Version >=3.10)
-- [Poetry](https://pypi.org/project/poetry/) (Version >=2.1.3)
+- [Python](https://www.python.org/downloads/) (Version >=3.13)
+- [Poetry](https://pypi.org/project/poetry/) (Version >=2.0.0)
 
 ### Initial Steps
 
@@ -43,7 +43,7 @@ To ensure that the jupyter notebooks can be executed properly, the following ste
 
 4. Select python interpreter of virutalenv as global python interpreter for VSCode.
 
-4. Select the same python interpreter as the Jupyter Notebooks kernel in every notebook. The interpreter of the virtualenv should be recommended automatically.
+5. Select the same python interpreter as the Jupyter Notebooks kernel in every notebook. The interpreter of the virtualenv should be recommended automatically.
 
 
 ## Project Structure
