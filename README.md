@@ -6,6 +6,12 @@ The data for this project comes from a facility belonging to the CapBioCO2 resea
 
 The aim of this project is to first organize the collected data into a structure in which it can be further processed and evaluated. Since the underlying processes for the functioning of the facility are not easy to simulate, the next step is to perform modeling based on the pre-processed data. Based on the models, optimization methods will then be applied to find the best possible combination of adjustable input parameters so that the average percentage of salt removal is at its highest. Furthermore another aim is to maximize the average amount of purified water.
 
+## Optimization Result
+
+The following 3D visualization shows the maximum identified during the optimization:
+
+![3D visualization of the optimization maximum](assets/maximum_3d.png)
+
 ## Project Setup
 
 In order to set up the project properly, a few programs are necessary/recommended.
@@ -54,6 +60,8 @@ To ensure that the jupyter notebooks can be executed properly, the following ste
 │   ├── model_lin_reg
 │   ├── model_random_forest
 │   └── prepared_data
+├── assets
+│   └── maximum_3d.png
 ├── data
 │   ├── processed
 │   └── raw
